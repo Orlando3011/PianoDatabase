@@ -34,6 +34,6 @@ class Main {
     }   
 }
 //"C:\\Users\\Ela i Andrzej\\Desktop\\Michał dokumenty\\PianoProject-master\\src\\dataFiles\\dane.txt"
-//ścieżka na laptopie
+//path on laptop
 //"C:\\Users\\User\\Desktop\\JavaApplication1\\src\\dataFiles\\dane.txt"
-//dane na komputerze
+//path on computer
