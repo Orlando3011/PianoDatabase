@@ -34,12 +34,7 @@ public class Acustic extends Piano {
     }
     
     public String toString() {
-        return this.releaseDate.toString() + 
-                ", " + this.price + 
-                ", " + this.company + 
-                ", " + this.serialNumber + 
-                ", " + this.buttonNumber + 
-                ", " + this.color + 
+        return super.toString() +
                 ", " + this.tuningDate.toString();
     }
     

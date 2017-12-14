@@ -49,12 +49,7 @@ public class Electric extends Piano {
     }
     
     public String toString() {
-        return this.releaseDate.toString() + 
-                ", " + this.price + 
-                ", " + this.company + 
-                ", " + this.serialNumber + 
-                ", " + this.buttonNumber + 
-                ", " + this.color + 
+        return super.toString() + 
                 ", " + this.power + 
                 ", " + this.soundsNumber;
     }

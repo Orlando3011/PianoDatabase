@@ -1,10 +1,9 @@
 public class Instrument {
-    CDate releaseDate;
-    float price;
-    String company;
-    String type;
-    String serialNumber;
-    String color;
+    private CDate releaseDate;
+    private float price;
+    private String company;
+    private String serialNumber;
+    private String color;
     
     public Instrument() {
     }
@@ -58,5 +57,13 @@ public class Instrument {
     
     public void setColor(String color) {
         this.color = color;
+    }
+    
+    public String toString() {
+        return this.releaseDate.toString() + 
+                ", " + this.price + 
+                ", " + this.company + 
+                ", " + this.serialNumber + 
+                ", " + this.color;
     }
 }
