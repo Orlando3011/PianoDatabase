@@ -1,7 +1,8 @@
- 
-¿eby odpaliæ w konsoli klienta
+
+To run client:
+	cpp ->
 	java -jar Klient.jar
 
- 
-¿eby odpaliæ w konsoli serwer
+To run server:
+	cpp ->
 	java -jar JavaApplication1.jar
