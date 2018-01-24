@@ -1,5 +1,6 @@
+
 public class Piano extends Instrument {
-    
+        
     int buttonNumber;
     
     public Piano() {
@@ -23,5 +24,11 @@ public class Piano extends Instrument {
 
     public void setButtonNumber (int buttonNumber) {
         this.buttonNumber = buttonNumber;
+    }    
+    
+    public String toString() {
+        return super.toString() +
+                "\t" + this.buttonNumber + 
+                "\t";
     }
 }

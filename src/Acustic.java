@@ -35,7 +35,7 @@ public class Acustic extends Piano {
     
     public String toString() {
         return super.toString() +
-                ", " + this.tuningDate.toString();
+                "\t\t\t\t" + this.tuningDate.toString();
     }
     
 }

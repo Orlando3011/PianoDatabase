@@ -1,5 +1,5 @@
 public class Instrument {
-    private CDate releaseDate;
+    public CDate releaseDate;
     private float price;
     private String company;
     private String serialNumber;
@@ -61,9 +61,11 @@ public class Instrument {
     
     public String toString() {
         return this.releaseDate.toString() + 
-                ", " + this.price + 
-                ", " + this.company + 
-                ", " + this.serialNumber + 
-                ", " + this.color;
+                "\t" + this.price + 
+                "\t\t" + this.company + 
+                "\t" + this.serialNumber + 
+                "\t\t" + this.color +
+                "\t";
     }
+    
 }

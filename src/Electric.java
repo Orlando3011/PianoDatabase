@@ -50,7 +50,7 @@ public class Electric extends Piano {
     
     public String toString() {
         return super.toString() + 
-                ", " + this.power + 
-                ", " + this.soundsNumber;
+                "\t" + this.power + 
+                "\t" + this.soundsNumber;
     }
 }
