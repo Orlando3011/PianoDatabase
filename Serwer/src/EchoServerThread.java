@@ -70,7 +70,7 @@ class EchoServerThread extends Thread {
                                     + "|  show electric -> pokaż wszystkie pianina elektryczne;"
                                     + "|  show <nazwa firmy> -> pokaż wszystkie pianina danej firmy (Yamaha, Casio;"
                                     + "|  show stats -> pokaż informacje o aktyalnych produktach;"
-                                    + "|  sort_name -> Posortuj produkty rosnąco po nazwie"
+                                    + "|  sort name -> Posortuj produkty rosnąco po nazwie"
                                     + "|  sort price -> Posortuj produkty rosnąco po cenie"
                                     + "|  sort date -> Posortuj produkty rosnąco po dacie wydania"
                                     + "|  end -> zakończ działanie programu;";
