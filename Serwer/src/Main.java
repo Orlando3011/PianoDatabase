@@ -8,6 +8,7 @@ public class Main {
         ServerSocket serwer = new ServerSocket(7);
         System.out.println("Serwer MultiECHO: " + serwer);
         
+        
         try {
             while(true) {
                 Socket gniazdo = serwer.accept();

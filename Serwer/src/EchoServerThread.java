@@ -24,7 +24,7 @@ class EchoServerThread extends Thread {
             Instrument TempArray[] = new Instrument[100];
             
             BufferedReader in = new BufferedReader(
-            new FileReader("C:\\Users\\User\\Desktop\\IT\\PS projekt\\Piano_project\\Serwer\\src\\dataFiles\\dane.txt"));
+            new FileReader("C:\\Users\\User\\Desktop\\IT\\PS projekt\\Piano_project\\Serwer\\src\\dataFiles\\dane"));
             String s;
             int pianoCounter = 0;
             while((s = in.readLine())!= null) {
